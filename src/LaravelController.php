@@ -23,7 +23,7 @@ abstract class LaravelController extends Controller
      * @param  mixed  $data
      * @param  integer $statusCode
      * @param  array  $headers
-     * @return Illuminate\Http\JsonResponse
+     * @return \Illuminate\Http\JsonResponse
      */
     protected function response($data, $statusCode = 200, array $headers = [])
     {
